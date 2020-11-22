@@ -1,0 +1,6 @@
+for n in range (1000,10000):
+    n=str(n)
+
+    if n[::-1]==n:
+        print(n)
+  
