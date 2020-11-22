@@ -1,0 +1,6 @@
+for a in range(10,100):
+    for b in range (10,100):
+        sayı=str(a)+str(b)
+
+        if int(sayı)==11*(int(a)+int(b)):
+            print(a,b)
